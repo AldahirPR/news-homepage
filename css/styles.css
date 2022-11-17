@@ -26,6 +26,11 @@ nav{
     text-decoration: none;
     color: hsl(236, 13%, 42%);
     font-weight: 400;
+    transition: 300ms;
+}
+
+a:hover{
+    color: hsl(35, 77%, 62%);
 }
 
 ul{
@@ -72,6 +77,12 @@ ul{
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 0.7em;
+    transition: 300ms;
+}
+
+.vertical-content > h2:hover{
+    cursor: pointer;
+    color: hsl(35, 77%, 62%);
 }
 
 .vertical-content > p{
@@ -113,6 +124,12 @@ ul{
     margin: 2.3em 0 0;
     padding: 0.7em 0;
     width: 55%;
+    transition: 300ms;
+}
+
+.read-more-btn:hover{
+    cursor: pointer;
+    background-color: hsl(240, 100%, 5%);
 }
 
 .retro-pcs, .laptops, .gaming{
@@ -137,6 +154,12 @@ ul{
 .img-content > h3{
     color: hsl(240, 100%, 5%);
     font-weight: 800;
+    transition: 300ms;
+}
+
+.img-content > h3:hover{
+    cursor: pointer;
+    color: hsl(5, 85%, 63%);
 }
 
 .img-content > p{
